@@ -1,0 +1,9 @@
+Location,Name,Frequency,Duplex,Offset,Tone,rToneFreq,cToneFreq,DtcsCode,DtcsPolarity,RxDtcsCode,CrossMode,Mode,TStep,Skip,Power,Comment,URCALL,RPT1CALL,RPT2CALL,DVCODE
+1,Supp LightL01,26.835,,0,,88.5,88.5,23,NN,23,Tone->Tone,FM,5,,8.0W,,,,,
+2,Supp LightL02,26.29,,0,,88.5,88.5,23,NN,23,Tone->Tone,FM,5,,8.0W,,,,,
+3,Supp LightL03,48.975,,0,,88.5,88.5,23,NN,23,Tone->Tone,NFM,5,,8.0W,,,,,
+4,Supp LightL04,48.985,,0,,88.5,88.5,23,NN,23,Tone->Tone,NFM,5,,8.0W,,,,,
+5,Supp LightL05,68.625,,0,,88.5,88.5,23,NN,23,Tone->Tone,NFM,5,,8.0W,,,,,
+6,Supp LightL06,73.375,,0,,88.5,88.5,23,NN,23,Tone->Tone,NFM,5,,8.0W,,,,,
+7,Supp LightL07,82.125,,0,,88.5,88.5,23,NN,23,Tone->Tone,NFM,5,,8.0W,,,,,
+8,Supp LightL08,85.875,,0,,88.5,88.5,23,NN,23,Tone->Tone,NFM,5,,8.0W,,,,,
