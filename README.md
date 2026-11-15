@@ -11,7 +11,13 @@ Corrections and additions are welcome. Please keep entries consistent with the r
 ## Disclaimer
 ### Technical
 
-The frequency information may be incomplete or out of date, so if you are looking to be using any of this for "proper" reasons, verify the details with an authoritative source. I'm just some guy on github, and you'd be kicking yourself if you copied something from here and then had to rely on a frequency I listed with a typo for something important.
+Some frequency sets will include a standard list as well as a "Low" version. The low version should mostly be made up of frequencies that fall outside of VHF/UHF banding so some people may have difficulty adding them to their radios.
+
+Certain values within the CSVs are simply the default from importing and exporting out of CHIRP. There has not been any configuration here to intentionally enable someone to transmit and receive on these frequencies.
+
+In some instances, there are frequencies that that are intended to be used for a repeater configuration, but these have been added separately. This would mean that in using the list of frequencies, you could select one channel and be listening to the output of a repeater on `Frequency A`, but on another selection be listening to that same traffic on `Frequency B` that the repeater is listening for to then re-broadcast on `Frequency A`.
+
+The frequency information may be incomplete or out of date, so if you are looking to be using any of this for "proper" reasons, verify the details with an authoritative source (aka, OFCOM when paying for your license to use the particular frequency). I'm just some guy on github, and you'd be kicking yourself if you copied something from here and then had to rely on a frequency I listed with a typo for something important.
 
 When I was working with CHIRP, I found that the power settings were either 8W or 50W, and this may not be appropriate for the frequency (PMR446 for example is limited to 0.5W) or individual radios. Therefore uploads may either have this value set blank, or set to whatever CHIRP assigned for me at first. Please consider this when using the files from here and set according to your usage and the relevant regulations.
 
